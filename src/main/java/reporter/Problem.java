@@ -10,7 +10,7 @@ public class Problem {
 
     Public Problem(Room room) {
         this.room = room;
-        fixed = false;
+        this.fixed = false;
     }
 
 
