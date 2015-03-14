@@ -13,7 +13,7 @@ public class Building {
 
     public Building(String name, Room room) {
         this.name = name;
-        rooms = new HashSet<Room>;
+        rooms = new HashSet<Room>();
         rooms.add(room);
     }
 
