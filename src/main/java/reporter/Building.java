@@ -1,8 +1,11 @@
 package reporter;
 
+import java.util.HashSet;
+import java.util.Set;
 
 /**
  * Created by Chris on 15-03-14.
+ *
  */
 public class Building {
     private String name;
