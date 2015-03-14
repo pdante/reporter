@@ -10,9 +10,9 @@ import org.springframework.web.bind.annotation.RestController;
 @Controller
 public class ReportController {
 
-    @RequestMapping(value = "/")
+    @RequestMapping(value = "/rep")
     public String home() {
         System.out.println("HomeController: Passing through...");
-        return "WEB-INF/views/report.jsp";
+        return "webapp.WEB-INF/views/report.jsp";
     }
 }
