@@ -18,6 +18,7 @@ public class ReportController{
     public String printHello(Modelmap model) {
         model.addAttribute("message", "this is a message that chris made");
         return "chris's hello";
+        System.out.println("boo");
     }
 
 }
