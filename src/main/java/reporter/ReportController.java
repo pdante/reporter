@@ -12,7 +12,7 @@ import org.springframework.ui.ModelMap;
  */
 @Controller
 @RequestMapping("/rep")
-public class RepController{
+public class ReportController{
 
     @RequestMapping(method = RequestMethod.GET)
     public String printHello(Modelmap model) {
